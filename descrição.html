@@ -1,0 +1,124 @@
+🎨 Estilização de Texto
+
+- color: Cor do texto
+- font-size: Tamanho da fonte
+- font-family: Tipo da fonte
+- font-weight: Espessura da fonte (bold etc.)
+- text-align: Alinhamento (left, center, right)
+- text-decoration: Sublinhado, linha sobre etc.
+- line-height: Espaço entre linhas
+- letter-spacing: Espaço entre letras
+- text-transform: Maiúscula/minúscula/capitalizada
+
+📦 Box Model
+
+- width: Largura
+- height: Altura
+- padding: Espaço interno
+- margin: Espaço externo
+- border: Borda do elemento
+- box-sizing: Define como calcular largura/altura (content-box, border-box)
+
+---
+
+🎯 Layout
+
+- display: Define o tipo de caixa (block, inline, flex, grid)
+- position: Posicionamento (relative, absolute, fixed, sticky)
+- top, bottom, left, right: Posição em relação ao contêiner
+- z-index: Ordem de sobreposição
+
+---
+
+🎨 Cor e Fundo
+
+- background-color: Cor de fundo
+- background-image: Imagem de fundo
+- background-size: Tamanho da imagem
+- background-repeat: Repetir ou não
+- opacity: Transparência
+
+---
+
+🧭 Flexbox
+
+- display: flex
+- flex-direction: Direção (row, column)
+- justify-content: Alinhamento horizontal
+- align-items: Alinhamento vertical
+- flex-wrap: Quebrar linha
+
+🔲 Grid
+
+- display: grid
+- grid-template-columns: Definir colunas
+- grid-template-rows: Definir linhas
+- gap: Espaçamento entre colunas e linhas
+
+---
+
+🖱 Interação
+
+- cursor: Tipo de cursor
+- transition: Animações suaves
+- hover, active, focus: Pseudo-classes para interação
+
+---
+
+📱 Responsividade
+
+- @media: Regras para diferentes tamanhos de tela
+- max-width, min-width: Larguras máximas/mínimas
+
+
+🟦 Diferença entre class e id:
+
+- *Classe (.classe): Pode ser usada em *vários elementos.
+- *ID (#id): Deve ser usado *uma única vez por página.
+
+---
+
+✅ Exemplo com classes:
+
+html
+<div class="botao destaque"></div>
+
+
+css
+.botao {
+  background: blue;
+}
+
+.destaque {
+  border: 2px solid yellow;
+}
+
+
+---
+
+✅ Exemplo com ID:
+
+html
+<div id="cabecalho"></div>
+
+
+css
+#cabecalho {
+  background: black;
+  color: white;
+}
+
+
+---
+
+📌 Resumo de seletores comuns no CSS:
+
+| Tipo       | Sintaxe         | Exemplo                |
+|------------|------------------|------------------------|
+| Classe     | .classe        | .menu {}             |
+| ID         | #id            | #topo {}             |
+| Elemento   | tag            | p {} ou h1 {}      |
+| Combinado  | .classe .filho | .menu .item {}       |
+| Agrupado   | div, p         | div, p {}            |
+| Pseudo-classe | :hover, :first-child | a:hover {} |
+| Atributo   | [type="text"]  | input[type="text"] {}|
